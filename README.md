@@ -22,6 +22,18 @@ Notes
 - Month 3 = 30
 - Month 4+ = 40
 
+## Expected Monthly Profit
+Assumptions: 20/60/20 Lite/Standard/Pro mix; ad weights Standard=1 and Pro=2; fixed ads budget 5,000 MXN/month; creator cost 2,000 MXN/restaurant; upfront billing; payment fees 3.5%; tools 1,500 MXN/month.
+
+| Month | Total Clients | Profit (pre‑fees/overhead) | Recurring cash profit (after fees + tools) |
+|---:|---:|---:|---:|
+| 1 | 10 | 11,400 MXN | 8,626 MXN |
+| 2 | 20 | 27,800 MXN | 23,752 MXN |
+| 3 | 30 | 44,200 MXN | 38,878 MXN |
+| 4+ | 40 | 60,600 MXN | 54,004 MXN |
+
+Sources: projections.csv (Profit_MXN) and startup_projection.csv (Monthly_Recurring_Profit_MXN).
+
 ## Files
 - model_snapshot.md: Core assumptions, formulas, sensitivity table, and tier logic.
 - projections.csv: Tiered monthly projections and recurring profit.
