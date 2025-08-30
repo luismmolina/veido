@@ -1,78 +1,50 @@
-# Veido — Restaurant Creator Network (Modeling Snapshot)
+TIK Network — Piloto Morelia
 
-A lightweight model for a citywide restaurant content + promotion network.
+Red de creadores locales para restaurantes de Morelia. Cada visita genera 2 videos cortos y una encuesta de 10 puntos por platillo. Con ese material producimos piezas de “Los 3 mejores [Categoría] en Morelia” para atraer clientes y dar valor real a los restaurantes.
 
-- Restaurants pay monthly for short-form video content; Standard/Pro tiers include distribution via city channels and paid promotion.
-- Creators are paid per accepted video following clear guidelines.
-- Upfront billing (100%) and minimal overhead enable early positive cash flow.
+Qué hacemos
+- Creadores seleccionados visitan el restaurante y entregan: 2 videos verticales (15–45s) + encuesta de 10 puntos por platillo.
+- Usamos la encuesta para convertir los mismos videos en contenido de marketing: “Top 3 [Categoría] en Morelia”, captions, mini‑landing y badge.
+- Damos feedback privado y accionable al restaurante (nada negativo en público).
 
-## Packages
-- Lite: 3,300 MXN/month — videos only, no charts/promotion.
-- Standard: 3,600 MXN/month — videos + eligibility for charts + shared promotion.
-- Pro: 4,100 MXN/month — Standard plus extra promotion.
+Alcance del piloto
+- Mercado: Morelia (es‑MX).
+- Tamaño: 5 restaurantes y 5 creadores.
+- Pago a creadores: MXN 200 por gig (2 shorts + encuesta) por visita aceptada.
+- Prueba de visita: URLs de publicación + hashtag + tag al lugar (QR opcional).
+- Votación: No hay “créditos”; la encuesta es la base de ranking de platillos.
 
-Notes
-- Creator cost (all tiers, current model): 2,000 MXN/restaurant/month (20 videos assumed).
-- Ads budget (fixed): 5,000 MXN/month, allocated only across Standard/Pro.
-- Ad allocation weights: Standard = 1, Pro = 2 (configurable).
+Sitios previstos (MVP)
+- creators.: Aplicar, onboarding, dashboard de gigs, envíos, pagos, reglas.
+- partners.: Valor para restaurantes de Morelia, cómo funciona, piloto/CTA, casos.
+- awards.: Hubs por categoría (“Makis”, “Tortas”, “Tacos”), metodología, Top 3.
 
-## Growth Plan
-- Month 1 = 10 restaurants
-- Month 2 = 20
-- Month 3 = 30
-- Month 4+ = 40
+Flujos
+- Creador: Aplica → es aprobado → recibe brief → visita y graba → envía 2 links + encuesta → QA → pago.
+- Restaurante: Completa brief → agenda visita → recibe videos + kit “Top 3” + insights privados.
+- Awards/Top 3: Calculamos ranking por platillo con promedios de la encuesta (mín. 2 encuestas/platillo para rankear en piloto).
 
-## Expected Monthly Profit
-Assumptions: 20/60/20 Lite/Standard/Pro mix; ad weights Standard=1 and Pro=2; fixed ads budget 5,000 MXN/month; creator cost 2,000 MXN/restaurant; upfront billing; payment fees 3.5%; tools 1,500 MXN/month.
+Encuesta (10 puntos)
+1–5 en: Sabor, Textura, Presentación, Servicio ligado al platillo, Limpieza, Relación calidad‑precio, Consistencia, Originalidad, Ambiente, Recomendación. Campos extra: nombre del platillo, precio, porción, tiempo de espera, “qué pedir”, frase gancho.
 
-| Month | Total Clients | Profit (pre‑fees/overhead) | Recurring cash profit (after fees + tools) |
-|---:|---:|---:|---:|
-| 1 | 10 | 11,400 MXN | 8,626 MXN |
-| 2 | 20 | 27,800 MXN | 23,752 MXN |
-| 3 | 30 | 44,200 MXN | 38,878 MXN |
-| 4+ | 40 | 60,600 MXN | 54,004 MXN |
+Aceptación y calidad
+- Criterios: audio claro, encuadre estable, vertical 9:16, tono constructivo, sin insultos/ni difamación, seguridad de marca.
+- Revisión: 48–72h; 1 revisión menor incluida; rechazo con motivos y opción de reintento según caso.
 
-Sources: projections.csv (Profit_MXN) and startup_projection.csv (Monthly_Recurring_Profit_MXN).
+Operación y pagos
+- Pagos a creadores: SPEI o Stripe MX dentro de 72h tras aceptación.
+- Derechos: Licencia no exclusiva; restaurantes pueden usar las piezas 90 días; la plataforma puede usar en sus sitios/redes.
 
-## Files
-- model_snapshot.md: Core assumptions, formulas, sensitivity table, and tier logic.
-- projections.csv: Tiered monthly projections and recurring profit.
-- startup_projection.csv: Cash flow with upfront billing, payment fees, tools, and legal one-time.
-- assumptions.csv: Central inputs (prices, costs, growth targets, ad weights).
-- financial_model.csv: Sensitivity of per-restaurant economics vs number of clients.
+Cronograma sugerido (piloto)
+- Semana 1: Selección de creadores y brief de restaurantes.
+- Semanas 2–3: Producción (visitas y envíos).
+- Semana 4: QA, publicación y “Top 3” por categoría.
 
-## How to Read projections.csv
-Columns
-- Revenue_MXN: Monthly billing by tier mix (Lite/Standard/Pro).
-- Creator_Costs_MXN: 2,000 × total restaurants (current assumption; change if deliverables differ by tier).
-- Marketing_Budget_MXN: Fixed 5,000 MXN/month.
-- Shares: Ad allocation denominator = Standard_count × 1 + Pro_count × 2.
-- Marketing_per_Standard_MXN, Marketing_per_Pro_MXN: Per-restaurant ad allocation under weights.
-- Contribution_per_[Tier]_MXN: Price − creator cost − allocated marketing (Lite has no marketing).
-- Profit_MXN: Revenue − creator costs − marketing (pre-fees/overhead).
-- Monthly_Recurring_Profit_MXN: Same as Profit_MXN for clarity (recurring contribution before fees/overhead).
+Mockups
+- Página para restaurantes (partners): abrir `mockups/partners-landing.html` en el navegador.
 
-## How to Read startup_projection.csv
-Assumptions
-- Payment_Fees_MXN: 3.5% of revenue (stripe-like proxy).
-- Software_Tools_MXN: 1,500 MXN/month.
-- Domain/Hosting: 0 MXN/month (using free hosting like Vercel).
-- Legal_Admin_OneTime_MXN: 6,000 MXN in Month 0.
+Próximos pasos
+- Definir 2–3 categorías del piloto (ej. Makis, Tortas, Tacos).
+- Confirmar mínimos para ranking (sugerido: 2 encuestas por platillo).
+- Integrar formulario real (WhatsApp + email) y agenda.
 
-Columns
-- Net_Cash_In_MXN: Revenue − payment fees (reflects upfront billing).
-- Net_Cash_Flow_MXN: Net cash in − ads − creator − tools − one-time where applicable.
-- Cumulative_Cash_MXN: Running total of cash after expenses.
-- Monthly_Recurring_Profit_MXN: Net cash in − ads − creator − tools (excludes one-time items).
-
-## Tracking & Guarantees (Direction)
-- Trackable ads via UTM/QR per restaurant; weekly reporting.
-- Guarantee concept: make-good on deliverables and/or impressions floor (TBD).
-
-## Next Steps
-- Confirm creator deliverables by tier (e.g., Lite 10–12 videos; Pro 20 + edits) and adjust creator costs accordingly.
-- Lock tier mix targets per month to refine projections.
-- Optional: Convert these models into a Google Sheet with formulas and charts.
-
----
-Questions or updates to assumptions? Edit assumptions.csv and open an issue/PR, or ask to regenerate the projections with new inputs.

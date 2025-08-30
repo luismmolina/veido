@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Restaurantes • TIK Network — Más clientes con video real</title>
+    <meta name="description" content="Consigue videos que sí convierten y un flujo constante de clientes. Gestionamos creadores locales, producimos 2 shorts + encuesta por visita y te entregamos insights y piezas Top 3 por categoría en Morelia." />
+    <!-- Tailwind Play CDN (for mockup/demo only) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#f5f3ff', 100: '#ede9fe', 200: '#ddd6fe', 300: '#c4b5fd',
+                400: '#a78bfa', 500: '#8b5cf6', 600: '#7c3aed', 700: '#6d28d9',
+                800: '#5b21b6', 900: '#4c1d95', 950: '#2e1065'
+              }
+            },
+            fontFamily: {
+              sans: ["Inter", "ui-sans-serif", "system-ui", "-apple-system", "Segoe UI", "Roboto", "Helvetica", "Arial", "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"],
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      /* Simple helper styles for the mock */
+      .glass { backdrop-filter: blur(8px); background: rgba(255,255,255,.7); }
+      .dark .glass { background: rgba(15,23,42,.5); }
+      .container-prose { max-width: 1152px; }
+    </style>
+  </head>
+  <body class="font-sans antialiased bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+    <!-- Top bar -->
+    <header class="sticky top-0 z-40 border-b border-slate-200/60 dark:border-slate-800/80 bg-white/80 dark:bg-slate-950/70 backdrop-blur">
+      <div class="mx-auto container-prose px-4 py-3 flex items-center justify-between">
+        <a href="#" class="flex items-center gap-2 font-semibold">
+          <span class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-brand-600 text-white">TN</span>
+          <span class="tracking-tight">TIK Network</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-8 text-sm">
+          <a href="#como-funciona" class="hover:text-brand-700 dark:hover:text-brand-300">Cómo funciona</a>
+          <a href="#beneficios" class="hover:text-brand-700 dark:hover:text-brand-300">Beneficios</a>
+          <a href="#casos" class="hover:text-brand-700 dark:hover:text-brand-300">Caso Morelia</a>
+          <a href="#precios" class="hover:text-brand-700 dark:hover:text-brand-300">Piloto</a>
+          <a href="#faq" class="hover:text-brand-700 dark:hover:text-brand-300">FAQ</a>
+        </nav>
+        <div class="flex items-center gap-3">
+          <a href="#contacto" class="hidden sm:inline-flex items-center rounded-lg bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900 px-4 py-2 text-sm font-medium hover:opacity-90">Únete al piloto</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 -z-10 bg-gradient-to-br from-brand-50 via-white to-brand-100 dark:from-slate-900 dark:via-slate-950 dark:to-brand-950"></div>
+      <div class="mx-auto container-prose px-4 pt-14 pb-10 md:pt-20 md:pb-16 grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full border border-brand-200/70 bg-white/60 dark:bg-slate-900/50 px-3 py-1 text-xs text-brand-700 dark:text-brand-300">
+            <span class="h-2 w-2 rounded-full bg-brand-600"></span>
+            Piloto en Morelia
+          </div>
+          <h1 class="mt-4 text-3xl md:text-5xl font-bold leading-tight tracking-tight">
+            Más clientes con <span class="text-brand-700 dark:text-brand-300">20 videos reales</span>
+          </h1>
+          <p class="mt-4 text-slate-700 dark:text-slate-300 text-base md:text-lg">
+            Coordinamos <strong>10 creadores locales</strong> que visitan tu lugar y producen <strong>20 videos verticales</strong> listos para publicar y pautar. Tú no coordinas a nadie.
+          </p>
+          <div class="mt-6 flex flex-col sm:flex-row gap-3">
+            <a href="#contacto" class="inline-flex items-center justify-center rounded-lg bg-brand-600 text-white px-5 py-3 font-medium shadow hover:bg-brand-700">
+              Solicitar cotización
+            </a>
+            <a href="#casos" class="inline-flex items-center justify-center rounded-lg border border-slate-300 dark:border-slate-700 px-5 py-3 font-medium hover:bg-white/60 dark:hover:bg-slate-900/50">
+              Ver ejemplo “Top 3”
+            </a>
+          </div>
+          <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
+            <div class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/70 dark:bg-slate-900/50">
+              <div class="text-2xl font-bold">20 videos</div>
+              <div class="text-slate-600 dark:text-slate-400">10 creadores locales (2 c/u)</div>
+            </div>
+            <div class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/70 dark:bg-slate-900/50">
+              <div class="text-2xl font-bold">Pauta compartida</div>
+              <div class="text-slate-600 dark:text-slate-400">Pool de anuncios gestionado por nosotros</div>
+            </div>
+            <div class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/70 dark:bg-slate-900/50">
+              <div class="text-2xl font-bold">Incluye insights</div>
+              <div class="text-slate-600 dark:text-slate-400">Encuesta 10 puntos por platillo</div>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="glass rounded-2xl border border-slate-200 dark:border-slate-800 p-3 shadow-lg">
+            <picture>
+              <!-- Fallback known-good food image if preferred image fails -->
+              <img id="hero-img" class="w-full h-64 md:h-80 lg:h-96 rounded-lg object-cover" src="https://source.unsplash.com/E6HjQaB7UEA/1600x1000" alt="Mesa servida para cuatro personas en restaurante" loading="eager" fetchpriority="high" decoding="sync" />
+            </picture>
+            <div class="mt-3 grid grid-cols-3 gap-3 text-xs text-slate-600 dark:text-slate-400">
+              <div class="rounded-md border border-slate-200 dark:border-slate-800 p-2">Badge “Top 3”</div>
+              <div class="rounded-md border border-slate-200 dark:border-slate-800 p-2">Insights privados</div>
+              <div class="rounded-md border border-slate-200 dark:border-slate-800 p-2">Listo para pauta</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pain points / Value prop -->
+    <section id="beneficios" class="py-14 md:py-20">
+      <div class="mx-auto container-prose px-4">
+        <div class="max-w-2xl">
+          <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">Qué obtienes</h2>
+          <p class="mt-3 text-slate-700 dark:text-slate-300"><strong>20 videos verticales</strong> hechos en tu local por <strong>10 creadores</strong>, listos para publicar y pautar, más un <strong>resumen de insights</strong> para mejorar la experiencia.</p>
+        </div>
+        <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6">
+            <div class="h-10 w-10 rounded-lg bg-brand-100 dark:bg-brand-900/50 text-brand-700 dark:text-brand-300 grid place-content-center">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l4 7h-8l4-7zm0 20l-4-7h8l-4 7z"/></svg>
+            </div>
+            <h3 class="mt-4 font-semibold">Más mesas ocupadas</h3>
+            <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">20 videos verticales con experiencia real del cliente.</p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6">
+            <div class="h-10 w-10 rounded-lg bg-brand-100 dark:bg-brand-900/50 text-brand-700 dark:text-brand-300 grid place-content-center">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M3 12l18-8-8 18-2-7-8-3z"/></svg>
+            </div>
+            <h3 class="mt-4 font-semibold">Listo para pauta</h3>
+            <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">Optimizado para TikTok/IG/YouTube + pauta compartida incluida.</p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6">
+            <div class="h-10 w-10 rounded-lg bg-brand-100 dark:bg-brand-900/50 text-brand-700 dark:text-brand-300 grid place-content-center">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 8a4 4 0 100 8 4 4 0 000-8z"/></svg>
+            </div>
+            <h3 class="mt-4 font-semibold">Insights accionables</h3>
+            <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">Encuesta de 10 puntos por platillo y mejoras privadas.</p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6">
+            <div class="h-10 w-10 rounded-lg bg-brand-100 dark:bg-brand-900/50 text-brand-700 dark:text-brand-300 grid place-content-center">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17l-5 3 2-5-4-4 6-1 3-5 3 5 6 1-4 4 2 5-5-3z"/></svg>
+            </div>
+            <h3 class="mt-4 font-semibold">Sello “Top 3” local</h3>
+            <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">Aprovecha el contenido para aparecer en “Los 3 mejores [Categoría] en Morelia”.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="como-funciona" class="py-14 md:py-20 border-t border-b border-slate-200/70 dark:border-slate-800/70 bg-slate-50/50 dark:bg-slate-900/30">
+      <div class="mx-auto container-prose px-4">
+        <div class="max-w-2xl">
+          <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">Cómo funcionamos</h2>
+          <p class="mt-3 text-slate-700 dark:text-slate-300">Sin complicarte: coordinamos creadores, agenda y pauta. Tú cocina; nosotros entregamos.</p>
+        </div>
+        <ol class="mt-8 grid gap-6 md:grid-cols-3 text-sm">
+          <li class="rounded-xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-950"><span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-brand-600 text-white mr-2">1</span> Agenda 15 min</li>
+          <li class="rounded-xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-950"><span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-brand-600 text-white mr-2">2</span> Grabamos en tu local</li>
+          <li class="rounded-xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-950"><span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-brand-600 text-white mr-2">3</span> 2 videos + insights en 5–7 días</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Case / Proof -->
+    <section id="casos" class="py-14 md:py-20">
+      <div class="mx-auto container-prose px-4 grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">Morelia: pauta que paga mejor con video real</h2>
+          <p class="mt-3 text-slate-700 dark:text-slate-300">Los anuncios estáticos tienen techo. <strong>20 videos de experiencia</strong> creados por <strong>10 creadores</strong> te dan material que la gente sí ve y comparte. Sumamos <strong>pauta compartida</strong> para amplificar.</p>
+          <ul class="mt-4 space-y-2 text-slate-700 dark:text-slate-300 text-sm">
+            <li class="flex items-start gap-2"><svg class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/></svg> Videos con <strong>voz de usuario</strong> generan confianza y conversión.</li>
+            <li class="flex items-start gap-2"><svg class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/></svg> Reutilizamos cada visita en <strong>piezas Top 3 locales</strong>.</li>
+            <li class="flex items-start gap-2"><svg class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/></svg> Pauta compartida <strong>gestionada por nosotros</strong>; no manejas anuncios.</li>
+          </ul>
+        </div>
+        <div class="glass rounded-2xl border border-slate-200 dark:border-slate-800 p-6">
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div class="rounded-xl border border-slate-200 dark:border-slate-800 p-0 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=60" alt="Plato servido en restaurante" class="w-full h-48 object-cover" />
+              <div class="p-4">
+                <div class="text-3xl font-bold">+140%</div>
+                <div class="mt-1 text-sm text-slate-600 dark:text-slate-400">Incremento de ingresos (ejemplo)</div>
+              </div>
+            </div>
+            <div class="rounded-xl border border-slate-200 dark:border-slate-800 p-0 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1200&q=60" alt="Grabación de video vertical" class="w-full h-48 object-cover" />
+              <div class="p-4">
+                <div class="text-3xl font-bold">20 videos</div>
+                <div class="mt-1 text-sm text-slate-600 dark:text-slate-400">10 creadores locales</div>
+              </div>
+            </div>
+          </div>
+          <p class="mt-4 text-xs text-slate-500">Imágenes de ejemplo de Unsplash para la maqueta. Ajustaremos métricas reales en el piloto.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing / Pilot CTA -->
+    <section id="precios" class="py-14 md:py-20 bg-slate-50/70 dark:bg-slate-900/20 border-t border-b border-slate-200/60 dark:border-slate-800/60">
+      <div class="mx-auto container-prose px-4">
+        <div class="max-w-2xl">
+          <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">Piloto Morelia — lugares limitados</h2>
+          <p class="mt-3 text-slate-700 dark:text-slate-300">Validemos juntos: producimos video con creadores locales, te entregamos piezas listas para pauta y un kit “Top 3”. Sin ataduras.</p>
+        </div>
+        <div class="mt-8 grid gap-6 lg:grid-cols-3">
+          <div class="lg:col-span-2 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-white dark:bg-slate-950">
+            <h3 class="font-semibold text-lg">Incluye</h3>
+            <ul class="mt-3 grid sm:grid-cols-2 gap-2 text-sm text-slate-700 dark:text-slate-300">
+              <li class="flex items-start gap-2"><svg class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/></svg> 10 creadores locales coordinados por nosotros</li>
+              <li class="flex items-start gap-2"><svg class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/></svg> 20 videos verticales (9:16) listos para publicar</li>
+              <li class="flex items-start gap-2"><svg class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/></svg> Encuesta de 10 puntos por platillo</li>
+              <li class="flex items-start gap-2"><svg class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/></svg> Kit “Top 3 [Categoría]” (badge + copy)</li>
+              <li class="flex items-start gap-2"><svg class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/></svg> Archivos listos para pauta (meta/tt/yt)</li>
+              <li class="flex items-start gap-2"><svg class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/></svg> Feedback privado accionable</li>
+            </ul>
+            <p class="mt-4 text-xs text-slate-500">Pauta compartida (pool) incluida en el piloto. El restaurante puede cubrir el consumo del platillo.</p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-white dark:bg-slate-950">
+            <div class="text-sm uppercase tracking-wide text-slate-500">Paquete piloto</div>
+            <div class="mt-1 text-3xl font-bold">20 videos • 10 creadores</div>
+            <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">Incluye pauta compartida, encuesta por platillo y kit “Top 3”. Solicita cotización según categoría y fechas.</p>
+            <a href="#contacto" class="mt-4 inline-flex w-full items-center justify-center rounded-lg bg-brand-600 text-white px-5 py-3 font-medium shadow hover:bg-brand-700">Únete al piloto</a>
+            <p class="mt-4 text-xs text-slate-500">Sujeto a disponibilidad y alcance. Morelia y alrededores.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Logos / Social proof placeholder -->
+    <section class="py-10">
+      <div class="mx-auto container-prose px-4">
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 opacity-70">
+          <div class="h-12 rounded-lg border border-dashed border-slate-300 dark:border-slate-700 grid place-content-center text-xs">Tu logo aquí</div>
+          <div class="h-12 rounded-lg border border-dashed border-slate-300 dark:border-slate-700 grid place-content-center text-xs">Marca local</div>
+          <div class="h-12 rounded-lg border border-dashed border-slate-300 dark:border-slate-700 grid place-content-center text-xs">Marca local</div>
+          <div class="h-12 rounded-lg border border-dashed border-slate-300 dark:border-slate-700 grid place-content-center text-xs">Marca local</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-14 md:py-20 border-t border-slate-200/60 dark:border-slate-800/60">
+      <div class="mx-auto container-prose px-4">
+        <div class="max-w-2xl">
+          <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">Preguntas frecuentes</h2>
+        </div>
+        <div class="mt-6 grid gap-4 md:grid-cols-2">
+          <details class="rounded-xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-950" open>
+            <summary class="font-medium cursor-pointer">¿Tengo que buscar creadores o coordinarlos?</summary>
+            <p class="mt-2 text-sm text-slate-700 dark:text-slate-300">No. Nosotros los seleccionamos, asignamos y coordinamos. Recibes el material final y recomendaciones.</p>
+          </details>
+          <details class="rounded-xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-950">
+            <summary class="font-medium cursor-pointer">¿Qué recibo exactamente?</summary>
+            <p class="mt-2 text-sm text-slate-700 dark:text-slate-300">Por campaña: <strong>20 videos verticales</strong> (10 creadores × 2) listos para publicar o pautar, más un <strong>resumen privado</strong> con hallazgos de la encuesta (10 puntos por platillo).</p>
+          </details>
+          <details class="rounded-xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-950">
+            <summary class="font-medium cursor-pointer">¿Pueden aparecer en “Top 3 [Categoría] en Morelia”?</summary>
+            <p class="mt-2 text-sm text-slate-700 dark:text-slate-300">Sí. Usamos el material para crear piezas “Top 3” por categoría, basadas en la experiencia real de los creadores.</p>
+          </details>
+          <details class="rounded-xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-950">
+            <summary class="font-medium cursor-pointer">¿Habrá críticas negativas públicas?</summary>
+            <p class="mt-2 text-sm text-slate-700 dark:text-slate-300">No. El feedback sensible se comparte de forma privada. El contenido público es pro‑consumidor y constructivo.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Lead form (mock) -->
+    <section id="contacto" class="py-14 md:py-20 bg-gradient-to-b from-white to-brand-50/40 dark:from-slate-950 dark:to-brand-950/10">
+      <div class="mx-auto container-prose px-4 grid lg:grid-cols-2 gap-10 items-start">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">Conversemos 15 minutos</h2>
+          <p class="mt-3 text-slate-700 dark:text-slate-300">Cuéntanos tu categoría, objetivos y fechas; te proponemos un mini‑plan con contenidos y calendario. Piloto en Morelia.</p>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700 dark:text-slate-300">
+            <li class="flex items-start gap-2"><svg class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/></svg> Sin costo por la llamada.</li>
+            <li class="flex items-start gap-2"><svg class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/></svg> Entrega estimada: 5–7 días.</li>
+            <li class="flex items-start gap-2"><svg class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/></svg> Opción de cubrir consumo del platillo.</li>
+          </ul>
+        </div>
+        <form class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-white dark:bg-slate-950 grid gap-4">
+          <div class="grid gap-1">
+            <label for="nombre" class="text-sm font-medium">Nombre</label>
+            <input id="nombre" type="text" placeholder="Tu nombre" class="w-full rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-brand-500" />
+          </div>
+          <div class="grid gap-1">
+            <label for="restaurante" class="text-sm font-medium">Restaurante</label>
+            <input id="restaurante" type="text" placeholder="Nombre del restaurante" class="w-full rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-brand-500" />
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div class="grid gap-1">
+              <label for="whatsapp" class="text-sm font-medium">WhatsApp</label>
+              <input id="whatsapp" type="tel" placeholder="Ej. 443 000 0000" class="w-full rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-brand-500" />
+            </div>
+            <div class="grid gap-1">
+              <label for="email" class="text-sm font-medium">Email</label>
+              <input id="email" type="email" placeholder="tucorreo@ejemplo.com" class="w-full rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-brand-500" />
+            </div>
+          </div>
+          <div class="grid gap-1">
+            <label class="text-sm font-medium">Categorías de interés</label>
+            <div class="flex flex-wrap gap-2">
+              <label class="inline-flex items-center gap-2 rounded-full border border-slate-300 dark:border-slate-700 px-3 py-1 text-sm cursor-pointer">
+                <input type="checkbox" class="accent-brand-600"> Tacos
+              </label>
+              <label class="inline-flex items-center gap-2 rounded-full border border-slate-300 dark:border-slate-700 px-3 py-1 text-sm cursor-pointer">
+                <input type="checkbox" class="accent-brand-600"> Tortas
+              </label>
+              <label class="inline-flex items-center gap-2 rounded-full border border-slate-300 dark:border-slate-700 px-3 py-1 text-sm cursor-pointer">
+                <input type="checkbox" class="accent-brand-600"> Makis
+              </label>
+              <label class="inline-flex items-center gap-2 rounded-full border border-slate-300 dark:border-slate-700 px-3 py-1 text-sm cursor-pointer">
+                <input type="checkbox" class="accent-brand-600"> Café/Desayunos
+              </label>
+            </div>
+          </div>
+          <div class="grid gap-1">
+            <label for="mensaje" class="text-sm font-medium">Mensaje</label>
+            <textarea id="mensaje" rows="4" placeholder="Cuéntanos qué platillos te interesa posicionar y cuándo…" class="w-full rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-brand-500"></textarea>
+          </div>
+          <button type="button" class="mt-2 inline-flex items-center justify-center rounded-lg bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900 px-5 py-3 font-medium hover:opacity-90">Enviar solicitud (maqueta)</button>
+          <p class="text-xs text-slate-500">Formulario de demostración (maqueta). Integraremos WhatsApp y email en producción.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 border-t border-slate-200/60 dark:border-slate-800/60 text-sm">
+      <div class="mx-auto container-prose px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-2">
+          <span class="inline-flex h-7 w-7 items-center justify-center rounded-md bg-brand-600 text-white">TN</span>
+          <span class="text-slate-600 dark:text-slate-400">TIK Network • Morelia</span>
+        </div>
+        <div class="text-slate-600 dark:text-slate-400">© <span id="y"></span> • Demo de concepto</div>
+      </div>
+    </footer>
+
+    <!-- Sticky CTA -->
+    <div class="fixed bottom-4 right-4 z-40 flex flex-col gap-2">
+      <a href="#contacto" class="inline-flex items-center gap-2 rounded-full bg-brand-600 text-white px-4 py-2 shadow-lg hover:bg-brand-700">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 01-2 2h-3l-4 4v-4H7a2 2 0 01-2-2V6a2 2 0 012-2h12a2 2 0 012 2v9z"/></svg>
+        Únete al piloto
+      </a>
+      <a href="#" class="inline-flex items-center gap-2 rounded-full bg-white text-slate-900 border border-slate-200 px-4 py-2 shadow hover:bg-slate-50 dark:bg-slate-900 dark:text-slate-100 dark:border-slate-800 dark:hover:bg-slate-800">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24 12.36 12.36 0 003.88.62 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h2.44a1 1 0 011 1 12.36 12.36 0 00.62 3.88 1 1 0 01-.24 1.02l-2.2 2.2z"/></svg>
+        WhatsApp (pronto)
+      </a>
+    </div>
+
+    <script>
+      // Set current year in footer
+      const y = document.getElementById('y');
+      if (y) y.textContent = new Date().getFullYear();
+      // Hero image fallback if the requested Unsplash ID can't be loaded in some environments
+      const hero = document.getElementById('hero-img');
+      if (hero) {
+        hero.addEventListener('error', function () {
+          this.src = 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1600&q=60';
+        }, { once: true });
+      }
+    </script>
+  </body>
+</html>
