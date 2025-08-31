@@ -1,50 +1,39 @@
-TIK Network — Piloto Morelia
+TIK Network — Oferta Actual (Morelia)
 
-Red de creadores locales para restaurantes de Morelia. Cada visita genera 2 videos cortos y una encuesta de 10 puntos por platillo. Con ese material producimos piezas de “Los 3 mejores [Categoría] en Morelia” para atraer clientes y dar valor real a los restaurantes.
+Red de creadores locales para restaurantes de Morelia. Coordinamos 10 creadores para producir 20 videos verticales en tu local y generamos una reseña/encuesta de 10 puntos para extraer insights y contenido que convierte.
 
-Qué hacemos
-- Creadores seleccionados visitan el restaurante y entregan: 2 videos verticales (15–45s) + encuesta de 10 puntos por platillo.
-- Usamos la encuesta para convertir los mismos videos en contenido de marketing: “Top 3 [Categoría] en Morelia”, captions, mini‑landing y badge.
-- Damos feedback privado y accionable al restaurante (nada negativo en público).
+Qué obtienes (por campaña)
+- 10 creadores locales coordinados por nosotros.
+- 20 videos verticales (9:16), listos para publicar/pautar en TikTok/Instagram/YouTube.
+- Reseña/encuesta de 10 puntos por platillo y resumen de insights accionables.
+- Kit “Top 3 [Categoría] en Morelia” (badge + copy) cuando aplique.
+- Opcional según paquete: promoción en nuestras páginas/rankings y pauta pagada adicional.
 
-Alcance del piloto
-- Mercado: Morelia (es‑MX).
-- Tamaño: 5 restaurantes y 5 creadores.
-- Pago a creadores: MXN 200 por gig (2 shorts + encuesta) por visita aceptada.
-- Prueba de visita: URLs de publicación + hashtag + tag al lugar (QR opcional).
-- Votación: No hay “créditos”; la encuesta es la base de ranking de platillos.
+Entrega
+- Tiempo de entrega: 2 semanas a partir de agenda confirmada.
 
-Sitios previstos (MVP)
-- creators.: Aplicar, onboarding, dashboard de gigs, envíos, pagos, reglas.
-- partners.: Valor para restaurantes de Morelia, cómo funciona, piloto/CTA, casos.
-- awards.: Hubs por categoría (“Makis”, “Tortas”, “Tacos”), metodología, Top 3.
+Paquetes y precios (por campaña)
+- Lite — $2,800 MXN: 20 videos listos para publicar. Sin reseñas públicas ni promoción.
+- Impulso — $3,200 MXN: 20 videos + publicación de reseñas en redes y Google Maps (con acceso) + promoción en nuestras páginas/rankings.
+- Pro — $3,600 MXN: Todo lo de Impulso + promoción pagada adicional (pauta extra) gestionada por nosotros.
 
-Flujos
-- Creador: Aplica → es aprobado → recibe brief → visita y graba → envía 2 links + encuesta → QA → pago.
-- Restaurante: Completa brief → agenda visita → recibe videos + kit “Top 3” + insights privados.
-- Awards/Top 3: Calculamos ranking por platillo con promedios de la encuesta (mín. 2 encuestas/platillo para rankear en piloto).
+Proceso
+1) Agenda de 15 minutos y brief simple.
+2) Coordinamos visitas de 10 creadores y producción en tu local.
+3) Entregamos 20 videos + resumen de insights en 2 semanas.
 
-Encuesta (10 puntos)
-1–5 en: Sabor, Textura, Presentación, Servicio ligado al platillo, Limpieza, Relación calidad‑precio, Consistencia, Originalidad, Ambiente, Recomendación. Campos extra: nombre del platillo, precio, porción, tiempo de espera, “qué pedir”, frase gancho.
+Calidad y criterios
+- Formato: vertical 9:16, 15–45s, audio/imagen claros, tono constructivo.
+- Contenido: experiencia real del cliente; nada de insultos/difamación.
+- Feedback: hallazgos sensibles se comparten en privado.
 
-Aceptación y calidad
-- Criterios: audio claro, encuadre estable, vertical 9:16, tono constructivo, sin insultos/ni difamación, seguridad de marca.
-- Revisión: 48–72h; 1 revisión menor incluida; rechazo con motivos y opción de reintento según caso.
-
-Operación y pagos
-- Pagos a creadores: SPEI o Stripe MX dentro de 72h tras aceptación.
-- Derechos: Licencia no exclusiva; restaurantes pueden usar las piezas 90 días; la plataforma puede usar en sus sitios/redes.
-
-Cronograma sugerido (piloto)
-- Semana 1: Selección de creadores y brief de restaurantes.
-- Semanas 2–3: Producción (visitas y envíos).
-- Semana 4: QA, publicación y “Top 3” por categoría.
+Promoción y pauta
+- Pauta compartida (pool) disponible y gestionada por nosotros.
+- Pro incluye pauta pagada adicional; Impulso incluye promoción en rankings y reseñas públicas.
 
 Mockups
 - Página para restaurantes (partners): abrir `mockups/partners-landing.html` en el navegador.
 
-Próximos pasos
-- Definir 2–3 categorías del piloto (ej. Makis, Tortas, Tacos).
-- Confirmar mínimos para ranking (sugerido: 2 encuestas por platillo).
-- Integrar formulario real (WhatsApp + email) y agenda.
-
+Notas operativas (internas)
+- Pago a creadores (referencia): MXN 200 por gig (2 videos + encuesta) tras aceptación.
+- Prueba de visita: URLs de publicación + hashtag + tag al lugar (QR opcional).
